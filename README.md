@@ -11,7 +11,7 @@ echo package-lock.json >> .gitignore
 
 ## Commit & Push
 git add .
-git commit -m "Executando sem parar com nodemon"
+git commit -m "readme"
 git push
 
 git add .
