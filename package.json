@@ -4,6 +4,8 @@
   "description": "npm init -y",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
+    "livereload": "livereload",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,13 +13,15 @@
     "url": "git+https://github.com/joaofabioma/nodefyjs.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "JoaoFabio",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joaofabioma/nodefyjs/issues"
   },
   "homepage": "https://github.com/joaofabioma/nodefyjs#readme",
   "dependencies": {
-    "node-notifier": "^10.0.0"
+    "express": "^4.17.1",
+    "node-notifier": "^10.0.0",
+    "nodemon": "^2.0.14"
   }
 }
