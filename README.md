@@ -1,5 +1,6 @@
 # nodefyjs
 
+## Install
 npm init -y
 npm install --save node-notifier
 npm install express --save
@@ -8,7 +9,7 @@ npm install nodemon --save
 
 echo package-lock.json >> .gitignore
 
-
+## Commit & Push
 git add .
 git commit -m "Executando sem parar com nodemon"
 git push
